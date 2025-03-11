@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: white;
+}
+.home {
+  display: flex;
+  height: 100vh;
+}
+.home-text {
+  width: 50%;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home-text h1 {
+  font-size: 3rem;
+}
+.home-text p {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.btn:hover {
+  background: white;
+  color: black;
+}
+.home-image {
+  width: 50%;
+}
+.home-image img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.about {
+  background: #d3d3d3;
+  color: black;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.about-content {
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+}
+.about-text {
+  flex: 1;
+  font-size: 1.2rem;
+  margin-left: 40px;
+  margin-top: 30px;
+  padding: 20px;
+  letter-spacing: 2px;
+  line-height: 1.4;
+}
+.about-videos {
+  flex: 1;
+}
+.about-videos iframe {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.audition-section {
+  background: white;
+  color: black;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.audition-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.audition-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 1200px;
+}
+.audition-image {
+  width: 50%;
+}
+.audition-image img {
+  width: 100%;
+  height: auto;
+}
+.audition-videos {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.audition-videos video {
+  width: 100%;
+  height: auto;
+}
+.gallery {
+  background: black;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+.gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.gallery-images img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
